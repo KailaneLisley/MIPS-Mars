@@ -1,6 +1,6 @@
-.data
-arrayA: .word 10, 20, 30, 40, 50
-arrayB: .word 1, 2, 3, 4, 5
+.data                                    // Inicia a área declaração de dados
+arrayA: .word 10, 20, 30, 40, 50         // Reserva 5 posições consecutivas na memória (cada posição com uma palavra de 32 bits (4 bytes))
+arrayB: .word 1, 2, 3, 4, 5              // Reserva 
 
 msgA: .asciiz "\nArray A: "
 msgB: .asciiz "\nArray B: "
